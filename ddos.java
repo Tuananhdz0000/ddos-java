@@ -55,7 +55,7 @@ public class Dos implements Runnable {
         System.out.print("Enter Url: ");
         url = in.nextLine();
         System.out.println("\n");
-        System.out.println("Starting Attack to url: " + url);
+        System.out.println("CHUẨN BỊ DDOS : " + url);
 
         String[] SUrl = url.split("://");
 
@@ -66,7 +66,7 @@ public class Dos implements Runnable {
             dos.sslCheckConnection(url);
         }
 
-        System.out.println("Setting DDoS By: Shadow Tak");
+        System.out.println("DDOS BY NGUYEN TUAN ANH");
 
         System.out.print("Thread: ");
         String amount = in.nextLine();
